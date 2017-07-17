@@ -1709,6 +1709,13 @@
 		section.special > header, section.special > footer, article.special > header, article.special > footer {
 			text-align: center;
 		}
+			
+	.iframe {
+		position: relative;
+		display: inline-block;
+		border: 0;
+		outline: 0;
+	}
 
 	.row > section, .row > article {
 		margin-bottom: 0;
@@ -2512,9 +2519,10 @@
 			display: inline-block;
 			width: 18em;
 			background: #fff;
+			vertical-align: text-top;
 			text-align: center;
-			padding: 0 1em 3em 1em;
-			margin: 0 2em 0 0;
+			padding: 0 0 3em 0;
+			margin: 0 5em 0 0;
 			white-space: normal;
 			opacity: 1.0;
 			-moz-transition: opacity 0.75s ease-in-out;
