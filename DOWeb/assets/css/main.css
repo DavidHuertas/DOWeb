@@ -1554,7 +1554,7 @@
 
 	body {
 		background: #230000;
-		color: #5b5b5b;
+		color: #ccc;
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1581,7 +1581,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #eee;
 		line-height: 1.25em;
 	}
 
@@ -1619,7 +1619,7 @@
 
 	a {
 		color: inherit;
-		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
+		border-bottom: solid 1px rgba(250, 0, 0, 0.15);
 		text-decoration: none;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -1628,7 +1628,7 @@
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #aa0000;
 			border-bottom-color: transparent;
 		}
 
@@ -1999,7 +1999,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #200000;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2021,7 +2021,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #aa0000;
 		}
 
 		input[type="button"].alt,
@@ -2092,7 +2092,7 @@
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: #400000;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2187,7 +2187,7 @@
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #230000;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2336,7 +2336,7 @@
 /* Video */
 
 	#video {
-		background: #fff;
+		background: #400000;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2388,7 +2388,7 @@
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: #230000;
 		color: #fff;
 	}
 
@@ -2417,17 +2417,17 @@
 
 		#footer .copyright {
 			text-align: center;
-			color: rgba(128, 128, 128, 0.75);
+			color: rgba(200, 0, 0, 0.75);
 			font-size: 0.8em;
 			cursor: default;
 		}
 
 			#footer .copyright a {
-				color: rgba(128, 128, 128, 0.75);
+				color: rgba(180, 0, 0, 0.75);
 			}
 
 				#footer .copyright a:hover {
-					color: rgba(212, 212, 212, 0.85);
+					color: rgba(240, 0, 0, 0.85);
 				}
 
 /* Carousel */
